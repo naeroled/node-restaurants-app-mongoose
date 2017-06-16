@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:murmuring-caverns-51789
+  provider: heroku
+  api_key:
+    secure: f28ltQe6tbKprfcP12+plW3Q5EdVH6YlDlaeZwbYVUIYYABVEUdTO9aGMLkWOykOtBE2iQHTLQikqF9/Qisv4ZvISnAVR7VfRfMJcmp1DvLWoYRjQ7gtfmRGe1lDMXumfE+I3LQe/sF19Hn89JRrc1FIIWF9yVxGSnRMaGfcUPFnFVLsajyKXNZYFeJJG1IFxvXKfmR9TK4oV5v56Jxe4Qp+QDH+VhMEAibDxJ6yFe2OCeHCyuZow0eEPpZeRJRXyx2yFvfnC+9eoteWlbRc7SzgwEp++YPQdrSaOcEBqPZ6cOdxQnZbwn0bWX2Imr08wf5x5CPvWz9b5AtzRv4F5EGp5jgqcajEO1P9zOS9IXVTqNvGN9Twe63Q83shGFp6RLvOnAAj4zlk5yASpTCBbOhwLgh7kXeLSgHVoTedAhl5GzBgWaAMsXnxhq3aO/W93gRleK6luLMMdAo3JEMknJkNnmX5UxClmpsJBw2VXJRqq/ptFcrwY8/+1DlLGwN6sXoCnR69EJc5EqhwBzYpoztP+p4mhpwrhKZwTniL09vZt+QrORVopwQl0vSOljuNoZ83SgjXy+xJ1vTS8KaTnceGgsRUIZh5PMH+bGRpeTxwRSfJ6Tmyg+/pooaiet2b4wxOiDGzieHHpnwrfXTcFviEORdEE6C0P7vP/K3NF10=
+  app: murmuring-caverns-51789
+  on:
+    repo: naeroled/node-restaurants-app-mongoose
